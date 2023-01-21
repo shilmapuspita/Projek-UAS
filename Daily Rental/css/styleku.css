@@ -1,0 +1,49 @@
+img.kiri {
+    float: left;
+    width: 100px;
+}
+
+img.produk {
+	float: right;
+	width: 150px;
+}
+
+img.kanan {
+	float: right;
+	width: 195px;
+	height: 125px
+}
+    
+.myButton {
+	box-shadow: 3px 4px 0px 0px #a89ea8;
+	background:linear-gradient(to bottom, #eb1000 5%, #cc0000 100%);
+	background-color:#eb1000;
+	border-radius:2px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    float: right;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	padding:15px 27px;
+	text-decoration:none;
+	text-shadow:0px 0px 6px #b36464;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #cc0000 5%, #eb1000 100%);
+	background-color:#cc0000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.form-group {
+    font-style: bold;
+}
+
+.center {
+    text-align: center;
+}
